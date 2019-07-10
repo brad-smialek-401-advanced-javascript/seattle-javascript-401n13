@@ -22,6 +22,7 @@ class Team {
     entry.id = uuid();
     let record = this.sanitize(entry);
     if (record.id) { this.database.push(record); }
+    console.log(record.id);
     return Promise.resolve(record);
   }
 

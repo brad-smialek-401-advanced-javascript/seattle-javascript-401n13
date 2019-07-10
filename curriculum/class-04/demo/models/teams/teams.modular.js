@@ -13,3 +13,6 @@ class Team extends DataModel {
 }
 
 module.exports = Team;
+
+// function called Team
+console.log(module.exports);
