@@ -1,0 +1,26 @@
+{
+  "name": "lab-class-1",
+  "version": "1.0.0",
+  "description": "class 1 lab 1",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --verbose --coverage",
+    "lint": "eslint **/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brad-smialek-401-advanced-javascript/lab-class-1.git"
+  },
+  "author": "Brad Smialek",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/brad-smialek-401-advanced-javascript/lab-class-1/issues"
+  },
+  "homepage": "https://github.com/brad-smialek-401-advanced-javascript/lab-class-1#readme",
+  "devDependencies": {
+    "eslint": "^6.0.1",
+    "faker": "^4.1.0",
+    "jest": "^24.8.0"
+  },
+  "dependencies": {}
+}
