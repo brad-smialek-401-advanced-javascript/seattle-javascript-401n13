@@ -27,7 +27,6 @@
           let QueryString = Object.keys(options).map( (key,i) => {
             return `${key}=` + encodeURIComponent(options[key]);
           }).join("&");
-          console.log(QueryString);
 
           let authURL = `${googleURL}?${QueryString}`;
 
