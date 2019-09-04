@@ -8,7 +8,9 @@ const schema = require('./categories-schema.js');
  * @extends Model
  */
 class Categories extends Model {
-  constructor() { super(schema); }
+  constructor() { 
+    super(schema); 
+  }
 }
 
 module.exports = Categories;
