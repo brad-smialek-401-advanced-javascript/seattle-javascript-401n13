@@ -8,7 +8,7 @@ class App extends React.Component {
 
   render() {
     return (
-      <Message/>
+      <Message text='leave me alone, I want to eat my sushi' />
     );
   }
 }
