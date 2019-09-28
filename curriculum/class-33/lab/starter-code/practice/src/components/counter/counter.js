@@ -1,8 +1,10 @@
-import React, {useState} from 'react';
+import React, {useContext} from 'react';
+import Increment from '../increment/increment';
+import {counterContext} from '../context/context.js';
 
-const Count = () => {
+const Count = (props) => {
 
-  const [count, setCount] = useState(0);
+  const context = useContext(counterContext);
 
   const styles = {
     container: {
@@ -28,9 +30,9 @@ const Count = () => {
 
   return (
     <div style={styles.container}>
-      <button style={styles.button} onClick={() => setCount(count-1)}> - </button>
-      <span style={styles.counter}>{count}</span>
-      <button style={styles.button} onClick={() => setCount(count+1)}> + </button>
+      
+      <span style={styles.counter}>{context.counter}</span>
+      
     </div>
   );
 };
